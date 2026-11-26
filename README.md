@@ -3,7 +3,9 @@
 Recetas de Homebrew para mis apps de macOS.
 
 ```bash
-brew install --cask Dreffty/tap/focusdesk
+brew tap Dreffty/tap
+brew trust Dreffty/tap      # Homebrew pide confiar en los taps de terceros
+brew install --cask focusdesk
 ```
 
 | App | Qué es |
